@@ -1,0 +1,27 @@
+Hola! Vi tu publicación y me pareció muy interesante el proyecto de automatización para Mercado Libre.
+
+Te cuento que desarrollé un demo funcional para mostrarte exactamente lo que puedo hacer:
+
+https://github.com/williamhenderson1014/mercadolibre-sync
+
+El sistema incluye:
+
+- Panel de control con estadísticas en tiempo real (productos activos, pausados, errores, margen promedio)
+- Gestión completa de productos con filtros por estado, categoría y búsqueda
+- Control de sincronización con progreso visual y tareas programadas
+- Configuración de márgenes por categoría con rangos mínimos y máximos
+- Logs de actividad con historial completo de operaciones
+- Integración con la API de Mercado Libre
+
+La arquitectura está pensada para integrar:
+- Scraper que extrae productos del proveedor
+- Motor de procesamiento para calcular precios con márgenes
+- Sincronización automática de precios y stock
+- Publicación automática de nuevos productos
+- Pausado automático cuando el stock llega a cero
+
+Todo con Next.js, TypeScript y una interfaz profesional con los colores de Mercado Libre para que se sienta nativo.
+
+Me encantaría conversar sobre los detalles específicos de tu operación y cómo adaptar el sistema a tus necesidades.
+
+Saludos!
